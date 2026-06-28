@@ -12,7 +12,7 @@ T.G.winG 동아리의 공식 웹사이트. 'winG(날개)' 브랜딩과 컴퓨터
 | 프레임워크 | **Next.js** (App Router) + **TypeScript** — 프론트 + API 단일 |
 | DB | **PostgreSQL** + ORM (Drizzle 또는 Prisma) |
 | 인증 | **Auth.js** (NextAuth) + GitHub OAuth — GitHub Org 멤버십으로 멤버 판정 |
-| 파일 저장 | **Cloudflare R2** (S3 호환 SDK) — 족보 등 |
+| 파일 저장 | **Cloudflare R2** (S3 호환 SDK) — 스터디 자료 등 |
 | 개발 단계 배포 | **Vercel** |
 | 최종 호스팅 | **쿠러그(KU LUG) 자체 서버** (Docker) — 다음 학기 이전 |
 
@@ -55,7 +55,7 @@ TGwinG_official_web/
 - 기술 블로그 아카이브 (외부 아티클 링크 + OG 썸네일)
 
 **Private (멤버만 — GitHub Org 멤버십 기반)**
-- 족보 공유 (파일 업로드)
+- 스터디 자료 공유 (파일 업로드)
 - 스터디 / 팀 모집
 - 공지 / 일정
 - 관리자 페이지
